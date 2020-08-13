@@ -18,8 +18,8 @@ client = Client(account_sid, auth_token)
 def send_msg(): 
 	message = client.messages.create( 
                               from_='whatsapp:+14155238886',  
-                              body='Hello, How are you today ?',      
-                              to='whatsapp:+918420959349' 
+                              body='Hello, How are you today ? I Love you !!!!',      
+                              to='whatsapp:+916354311350' 
                           ) 
  
 	print(message.sid)
